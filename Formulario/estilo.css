@@ -61,14 +61,6 @@ button {
     max-width: 500px;
 }
 
-#contraste1 {
-    background-color: #007bff;
-    margin-top: 10px;
-    margin-right: 15px;
-}
-
-#contraste2 {
-    background-color: #000000;
-    color: #ffffff;
-    margin-top: 10px;
+#contraste1, #contraste2 {
+    margin: 10px;
 }
