@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 1: Formulario</title>
+    <link rel="stylesheet" href="estilo.css" id="hoja_estilo">
+    <script src="index_script.js"></script>
+</head>
+<body>
+        <div class="card">
+            <div class="card-header text-center">
+                <h1>Datos Personales</h1>
+            </div>
+            <div class="card-body">
+                <p class="card-text">Por favor complete los datos solicitados.</p>
+                <form action="" method="post" onsubmit="return validacion()">
+                <div class="form-group">
+                    <label id="nombre" for="nombre">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" name="nombre" aria-labelledby="nombre" placeholder="Ingrese su nombre" required autofocus>
+                </div>
+                <div class="form-group">
+                    <label id="apellido" for="apellido">Apellido</label>
+                    <input type="text" class="form-control" for="apellido" id="apellido" name="apellido" aria-labelledby="apellido" placeholder="Ingrese su apellido" required>
+                </div>
+                <div class="form-group">
+                    <label id="email" for="email">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" aria-labelledby="email" placeholder="Ingrese su email" required>
+                </div>
+                <div class="form-group">
+                    <label id="fechaNac" for="fechaNac">Fecha de Nacimiento</label>
+                    <input type="date" class="form-control" id="fechaNac" name="fechaNac" aria-labelledby="fechaNac" required>
+                </div>
+                <div class="form-group">
+                    <label id="pais" for="pais">País</label>
+                    <input type="text" name="pais" id="pais" aria-labelledby="pais" placeholder="Ingrese su país" required>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn">Enviar</button>
+                </div>
+            </form>
+            </div>
+        </div>
+        <div class="button-container">
+            <button class="btn" id="contraste1">Contraste 1</button>
+            <button class="btn" id="contraste2">Contraste 2</button>
+        </div>
+</body>
+</html>
